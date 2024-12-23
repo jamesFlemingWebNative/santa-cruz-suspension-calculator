@@ -1,15 +1,54 @@
 {
   "models": [
-    { "id": 1, "name": "Megatower" },
-    { "id": 2, "name": "Nomad" },
-    { "id": 3, "name": "Bronson" },
-    { "id": 4, "name": "5010" },
-    { "id": 5, "name": "Tallboy" },
-    { "id": 6, "name": "Hightower" },
-    { "id": 7, "name": "Blur" },
-    { "id": 8, "name": "Highball" },
-    { "id": 9, "name": "Stigmata" },
-    { "id": 10, "name": "Chameleon" },
-    { "id": 11, "name": "Jackal" }
+    {
+      "id": 1,
+      "name": "Megatower",
+      "image": "megatower.png"
+    },
+    {
+      "id": 2,
+      "name": "Nomad",
+      "image": "nomad.png"
+    },
+    {
+      "id": 3,
+      "name": "Bronson",
+      "image": "bronson.png"
+    },
+    {
+      "id": 4,
+      "name": "5010",
+      "image": "5010.png"
+    },
+    {
+      "id": 5,
+      "name": "Tallboy",
+      "image": "tallboy.png"
+    },
+    {
+      "id": 6,
+      "name": "Hightower",
+      "image": "hightower.png"
+    },
+    {
+      "id": 7,
+      "name": "Blur",
+      "image": "blur.png"
+    },
+    {
+      "id": 8,
+      "name": "Highball",
+      "image": "highball.png"
+    },
+    {
+      "id": 9,
+      "name": "Stigmata",
+      "image": "stigmata.png"
+    },
+    {
+      "id": 10,
+      "name": "Chameleon",
+      "image": "chameleon.png"
+    }
   ]
 }

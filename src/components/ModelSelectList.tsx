@@ -4,6 +4,7 @@ import ModelSelect from "./ModelSelect";
 export type Model = {
   id: number;
   name: string;
+  image: string;
 };
 
 const ModelSelectList = () => {
@@ -20,11 +21,13 @@ const ModelSelectList = () => {
   }, []);
 
   return (
-    <>
+    <div className="flex flex-row items-center gap-y-8 flex-wrap max-w-[500px]">
       {models.map((model) => (
-        <ModelSelect key={model.id} model={model} />
+        <div className="w-1/2 flex justify-center" key={model.id}>
+          <ModelSelect model={model} />
+        </div>
       ))}
-    </>
+    </div>
   );
 };
 
