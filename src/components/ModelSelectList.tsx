@@ -5,10 +5,26 @@ export type Model = {
   id: number;
   name: string;
   image: string;
+  forks: Fork[];
+  shocks: Shock[];
+};
+
+export type Fork = {
+  brand: string;
+  model: string;
+  travel: string;
+  details?: string;
+  remote?: boolean;
+};
+
+export type Shock = {
+  brand: string;
+  model: string;
+  size?: string;
+  details?: string;
 };
 
 const ModelSelectList = () => {
-  //   const [selectedModel, setSelectedModel] = useState<Model | null>(null);
   const [models, setModels] = useState<Model[]>([]);
 
   useEffect(() => {

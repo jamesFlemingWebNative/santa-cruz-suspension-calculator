@@ -1,54 +1,688 @@
 {
   "models": [
     {
-      "id": 1,
-      "name": "Megatower",
-      "image": "megatower.png"
+      "id": "1",
+      "name": "V10",
+      "image": "v10.png",
+      "forks": [
+        {
+          "brand": "FOX",
+          "model": "40 Float Performance",
+          "travel": "203mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "40 Float Factory",
+          "travel": "203mm"
+        }
+      ],
+      "shocks": [
+        {
+          "brand": "FOX",
+          "model": "DHX2 Performance Elite Coil"
+        },
+        {
+          "brand": "Fox",
+          "model": "DHX2 Factory Coil"
+        }
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Nomad",
-      "image": "nomad.png"
+      "image": "nomad.png",
+      "forks": [
+        {
+          "brand": "FOX",
+          "model": "38 Float Performance Elite",
+          "details": "Grip X2",
+          "travel": "170mm"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Zeb Select+",
+          "travel": "170mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "38 Float Factory Elite",
+          "details": "Grip X2",
+          "travel": "170mm"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Zeb Ultimate",
+          "travel": "170mm"
+        }
+      ],
+      "shocks": [
+        {
+          "brand": "Fox",
+          "model": "Float X Performance Elite",
+          "size": "230x65"
+        },
+        {
+          "brand": "Fox",
+          "model": "Float X2 Factory",
+          "size": "230x65"
+        }
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
+      "name": "Bullit",
+      "image": "bullit.png",
+      "forks": [
+        {
+          "brand": "RockShox",
+          "model": "Zeb Base",
+          "travel": "170mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "38 Float Performance",
+          "travel": "170mm"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Zeb Select+",
+          "travel": "170mm"
+        },
+        {
+          "brand": "Fox",
+          "model": "38 Performance Elite"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Zeb Ultimate",
+          "travel": "170mm"
+        },
+        {
+          "brand": "Fox",
+          "model": "38 Float Factory"
+        }
+      ],
+      "shocks": [
+        {
+          "brand": "RockShox",
+          "model": "Super Deluxe Select",
+          "size": "230x62.5"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Super Deluxe Select+",
+          "size": "230x62.5"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Super Deluxe Select+ Coil",
+          "size": "230x62.5"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Super Deluxe Ultimate",
+          "size": "230x62.5"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Super Deluxe Ultimate Coil",
+          "size": "230x62.5"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Megatower",
+      "image": "megatower.png",
+      "forks": [
+        {
+          "brand": "FOX",
+          "model": "38 Float Performance Elite",
+          "details": "Grip X2",
+          "travel": "170mm"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Zeb Select+",
+          "travel": "170mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "38 Float Factory Elite",
+          "details": "Grip X2",
+          "travel": "170mm"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Zeb Ultimate",
+          "travel": "170mm"
+        }
+      ],
+      "shocks": [
+        {
+          "brand": "Fox",
+          "model": "Float X Performance Elite",
+          "size": "230x65"
+        },
+        {
+          "brand": "Fox",
+          "model": "Float X2 Factory",
+          "size": "230x65"
+        }
+      ]
+    },
+    {
+      "id": "5",
       "name": "Bronson",
-      "image": "bronson.png"
+      "image": "bronson.png",
+      "forks": [
+        {
+          "brand": "RockShox",
+          "model": "Lyrik Base",
+          "travel": "160mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "36 Float Performance",
+          "details": "Grip",
+          "travel": "160mm"
+        },
+        {
+          "brand": "Fox",
+          "model": "36 Float Performance Elite",
+          "details": "Grip X2",
+          "travel": "160mm"
+        },
+        {
+          "brand": "Fox",
+          "model": "36 Float Factory",
+          "details": "Grip X2",
+          "travel": "160mm"
+        }
+      ],
+      "shocks": [
+        {
+          "brand": "FOX",
+          "model": "Float Rhythm",
+          "size": "230x57.5"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float X Performance",
+          "size": "230x57.5"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float X Performance Elite",
+          "size": "230x57.5"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float X Factory",
+          "size": "230x57.5"
+        }
+      ]
     },
     {
-      "id": 4,
-      "name": "5010",
-      "image": "5010.png"
+      "id": "6",
+      "name": "Vala",
+      "image": "vala.png",
+      "forks": [
+        {
+          "brand": "RockShox",
+          "model": "Zeb Base",
+          "travel": "160mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "38 Float Performance",
+          "details": "Grip",
+          "travel": "160mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "38 Float Performance Elite",
+          "details": "Grip X2",
+          "travel": "160mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "38 Factory",
+          "details": "Grip X2",
+          "travel": "160mm"
+        }
+      ],
+      "shocks": [
+        {
+          "brand": "FOX",
+          "model": "Float X Performance",
+          "size": "205x60"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float X Performance Elite",
+          "size": "205x60"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float X Factory",
+          "size": "205x60"
+        }
+      ]
     },
     {
-      "id": 5,
-      "name": "Tallboy",
-      "image": "tallboy.png"
+      "id": "7",
+      "name": "Heckler",
+      "image": "heckler.png",
+      "forks": [
+        {
+          "brand": "RockShox",
+          "model": "Zeb Base",
+          "travel": "160mm"
+        },
+        {
+          "brand": "Rockshox",
+          "model": "Lyrik Base"
+        },
+        {
+          "brand": "FOX",
+          "model": "38 Float Performance",
+          "travel": "160mm"
+        },
+        {
+          "brand": "Fox",
+          "model": "36 Float Performance"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Zeb Select+",
+          "travel": "160mm"
+        },
+        {
+          "brand": "Fox",
+          "model": "36 Performance Elite"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Zeb Ultimate",
+          "travel": "160mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "36 Float Factory"
+        }
+      ],
+      "shocks": [
+        {
+          "brand": "RockShox",
+          "model": "Super Deluxe Select",
+          "size": "210x55"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Super Deluxe Select+",
+          "size": "210x55"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Super Deluxe Ultimate",
+          "size": "210x55"
+        }
+      ]
     },
     {
-      "id": 6,
+      "id": "8",
+      "name": "Heckler SL",
+      "image": "heckler-sl.png",
+      "forks": [
+        {
+          "brand": "RockShox",
+          "model": "Lyrik Base",
+          "travel": "160mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "36 Float Performance",
+          "details": "Grip",
+          "travel": "160mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "38 Float Performance Elite",
+          "details": "Grip X2",
+          "travel": "160mm"
+        },
+        {
+          "brand": "Fox",
+          "model": "36 Float Performance Elite",
+          "details": "Grip X2",
+          "travel": "160mm"
+        },
+        {
+          "brand": "Fox",
+          "model": "36 Float Factory",
+          "details": "Grip X2",
+          "travel": "160mm"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Lyrik Ultimate",
+          "travel": "160mm"
+        }
+      ],
+      "shocks": [
+        {
+          "brand": "FOX",
+          "model": "Float Rhythm",
+          "size": "210x55"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float Performance",
+          "size": "210x55"
+        },
+        {
+          "brand": "Fox",
+          "model": "Float X Performance",
+          "size": "210x55"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Super Deluxe Select+",
+          "size": "210x55"
+        },
+        {
+          "brand": "Fox",
+          "model": "Float X2 Performance Elite",
+          "size": "210x55"
+        },
+        {
+          "brand": "Fox",
+          "model": "Float X Performance Elite",
+          "size": "210x55"
+        },
+        {
+          "brand": "Fox",
+          "model": "Float X Factory",
+          "size": "210x55"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Super Deluxe Ultimate",
+          "size": "210x55"
+        }
+      ]
+    },
+    {
+      "id": "9",
       "name": "Hightower",
-      "image": "hightower.png"
+      "image": "hightower.png",
+      "forks": [
+        {
+          "brand": "RockShox",
+          "model": "Lyrik Base",
+          "travel": "160mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "36 Float Performance",
+          "details": "Grip",
+          "travel": "160mm"
+        },
+        {
+          "brand": "Fox",
+          "model": "36 Float Performance Elite",
+          "details": "Grip X2",
+          "travel": "160mm"
+        },
+        {
+          "brand": "Fox",
+          "model": "36 Float Factory",
+          "details": "Grip X2",
+          "travel": "160mm"
+        }
+      ],
+      "shocks": [
+        {
+          "brand": "FOX",
+          "model": "Float Rhythm",
+          "size": "210x55"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float X Performance",
+          "size": "230x57.5"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float X Performance Elite",
+          "size": "230x57.5"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float X Factory",
+          "size": "230x57.5"
+        }
+      ]
     },
     {
-      "id": 7,
+      "id": "10",
+      "name": "5010",
+      "image": "5010.png",
+      "forks": [
+        {
+          "brand": "RockShox",
+          "model": "Pike Select+",
+          "travel": "140mm"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Pike Ultimate",
+          "travel": "140mm"
+        }
+      ],
+      "shocks": [
+        {
+          "brand": "RockShox",
+          "model": "Super Deluxe Select+",
+          "size": "210x50"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Super Deluxe Ultimate",
+          "size": "210x50"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Tallboy",
+      "image": "tallboy.png",
+      "forks": [
+        {
+          "brand": "FOX",
+          "model": "34 Float Performance Elite",
+          "details": "Grip X",
+          "travel": "130mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "34 Float Factory",
+          "details": "Grip X",
+          "travel": "130mm"
+        }
+      ],
+      "shocks": [
+        {
+          "brand": "FOX",
+          "model": "Float Performance Elite",
+          "size": "190x45"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float Factory",
+          "size": "190x45"
+        }
+      ]
+    },
+    {
+      "id": "12",
       "name": "Blur",
-      "image": "blur.png"
+      "image": "blur.png",
+      "forks": [
+        {
+          "brand": "RockShox",
+          "model": "Sid SL Select+",
+          "details": "3-Position",
+          "travel": "110mm",
+          "remote": true
+        },
+        {
+          "brand": "FOX",
+          "model": "34SC Float Performance Elite",
+          "details": "Grip SL",
+          "travel": "120mm"
+        },
+        {
+          "brand": "RockShox",
+          "model": "SID SL Ultimate",
+          "details": "3-Position",
+          "travel": "110mm",
+          "remote": true
+        },
+        {
+          "brand": "FOX",
+          "model": "34SC Float Factory",
+          "details": "Grip SL",
+          "travel": "120mm"
+        },
+        {
+          "brand": "RockShox",
+          "model": "SID Ultimate Flight Attendant",
+          "travel": "120mm"
+        }
+      ],
+      "shocks": [
+        {
+          "brand": "RockShox",
+          "model": "SidLuxe Select+",
+          "details": "3-Position, w/Remote",
+          "size": "190x42.5"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float Performance Elite",
+          "size": "190x45"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float SL Performance Elite",
+          "size": "190x45"
+        },
+        {
+          "brand": "RockShox",
+          "model": "SidLuxe Ultimate",
+          "details": "3-Position, w/Remote",
+          "size": "190x42.5"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float Factory",
+          "size": "190x45"
+        },
+        {
+          "brand": "FOX",
+          "model": "Float SL Factory",
+          "size": "190x45"
+        },
+        {
+          "brand": "RockShox",
+          "model": "SIDLuxe Ultimate Flight Attendant",
+          "size": "190x45"
+        }
+      ]
     },
     {
-      "id": 8,
+      "id": "13",
       "name": "Highball",
-      "image": "highball.png"
+      "image": "highball.png",
+      "forks": [
+        {
+          "brand": "RockShox",
+          "model": "Sid SL Base",
+          "travel": "100mm",
+          "details": "w/ 2-Position Remote"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Sid SL Select+",
+          "details": "3-Position",
+          "travel": "100mm",
+          "remote": true
+        },
+        {
+          "brand": "RockShox",
+          "model": "SID SL Ultimate",
+          "details": "3-Position",
+          "travel": "100mm",
+          "remote": true
+        }
+      ],
+      "shocks": []
     },
     {
-      "id": 9,
-      "name": "Stigmata",
-      "image": "stigmata.png"
-    },
-    {
-      "id": 10,
+      "id": "14",
       "name": "Chameleon",
-      "image": "chameleon.png"
+      "image": "chameleon.png",
+      "forks": [
+        {
+          "brand": "RockShox",
+          "model": "Recon Silver RL",
+          "travel": "130mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "Rhythm 34 Float",
+          "travel": "130mm"
+        },
+        {
+          "brand": "FOX",
+          "model": "34 Float Performance",
+          "travel": "130mm"
+        }
+      ],
+      "shocks": []
+    },
+    {
+      "id": "15",
+      "name": "Stigmata",
+      "image": "stigmata.png",
+      "forks": [
+        {
+          "brand": "RockShox",
+          "model": "Rudy Base XPLR",
+          "travel": "40mm"
+        },
+        {
+          "brand": "RockShox",
+          "model": "Rudy Ultimate XPLR",
+          "travel": "40mm"
+        }
+      ],
+      "shocks": []
+    },
+    {
+      "id": "16",
+      "name": "Skitch",
+      "image": "skitch.png",
+      "forks": [
+        {
+          "brand": "RockShox",
+          "model": "Rudy Base XPLR",
+          "travel": "40mm"
+        }
+      ],
+      "shocks": []
     }
   ]
 }
