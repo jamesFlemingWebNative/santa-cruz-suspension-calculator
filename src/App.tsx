@@ -1,14 +1,13 @@
-import ModelSelectList from "./components/ModelSelectList";
+import { Routes, Route } from "react-router-dom";
+import ModelSetup from "./pages/ModelSetup";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <>
-      <div className="flex justify-center gap-6 flex-col items-center mt-10 font-sans text-eerie-black">
-        <img src="../assets/santa-cruz-logo.png" alt="Santa Cruz Logo" />
-        <div className="flex justify-center gap-2 flex-col items-center"></div>
-        <ModelSelectList />
-      </div>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/model/:id" element={<ModelSetup />} />
+    </Routes>
   );
 }
 
