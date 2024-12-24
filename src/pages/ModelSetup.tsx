@@ -2,6 +2,13 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Fork, Model, Shock } from "../components/ModelSelectList";
 import { SubmitHandler, useForm } from "react-hook-form";
+import {
+  Container,
+  Typography,
+  TextField,
+  MenuItem,
+  Button,
+} from "@mui/material";
 
 type FormValues = {
   fork: string;
@@ -31,34 +38,52 @@ const ModelSetup = () => {
   const shockName = (shock: Shock) => `${shock.brand} ${shock.model}`;
 
   return (
-    <div>
-      <h1>{modelSetup?.name}</h1>
+    <Container>
+      <Typography variant="h4" component="h1" gutterBottom>
+        {modelSetup?.name}
+      </Typography>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
-          <label htmlFor="fork">Fork</label>
-          <select id="fork" {...register("fork")}>
-            <option value="">Select a fork</option>
+          <TextField
+            select
+            label="Fork"
+            {...register("fork")}
+            fullWidth
+            margin="normal"
+          >
+            <MenuItem value="">
+              <em>Select a fork</em>
+            </MenuItem>
             {modelSetup?.forks.map((fork) => (
-              <option key={forkName(fork)} value={forkName(fork)}>
+              <MenuItem key={forkName(fork)} value={forkName(fork)}>
                 {forkName(fork)}
-              </option>
+              </MenuItem>
             ))}
-          </select>
+          </TextField>
         </div>
         <div>
-          <label htmlFor="shock">Shock</label>
-          <select id="shock" {...register("shock")}>
-            <option value="">Select a shock</option>
+          <TextField
+            select
+            label="Shock"
+            {...register("shock")}
+            fullWidth
+            margin="normal"
+          >
+            <MenuItem value="">
+              <em>Select a shock</em>
+            </MenuItem>
             {modelSetup?.shocks.map((shock) => (
-              <option key={shockName(shock)} value={shockName(shock)}>
+              <MenuItem key={shockName(shock)} value={shockName(shock)}>
                 {shockName(shock)}
-              </option>
+              </MenuItem>
             ))}
-          </select>
+          </TextField>
         </div>
-        <button type="submit">Submit</button>
+        <Button type="submit" variant="contained" color="primary">
+          Submit
+        </Button>
       </form>
-    </div>
+    </Container>
   );
 };
 
